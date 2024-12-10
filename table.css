@@ -1,0 +1,53 @@
+ /*page styling*/
+ body{
+    background-color:beige;
+}
+
+/*table styling*/
+table{
+    width: 50%;
+    /*set a border around the data*/
+    border: 1px solid brown;
+    /*collapse the border so they don't stack*/
+    border-collapse: collapse;
+}
+
+/*these styles will apply to both the headings and the columns/data*/
+th, td{
+    text-align: left;
+    padding: 8px;
+}
+
+th{
+    background-color: black;
+    color:white;
+}
+
+/*set alternating colors for each row*/
+tr:nth-child(even){
+    background-color: lightcyan;
+    color:indigo;
+}
+
+/*add a hover for the row*/
+tr.hover{
+    background-color: lightgreen;
+}
+
+td{
+    color:black;
+}
+
+/*Styles footer*/
+footer{
+    /*centers the text*/
+    text-align: center;
+    /*sets the position*/
+    position: fixed;
+    /*anchors footer to bottom of the page*/
+    bottom: 0;
+    /*sets the width*/
+    width: 100%;
+    /*adjusts the hight*/
+    height: 100px;
+}

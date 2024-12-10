@@ -1,0 +1,24 @@
+/*Styles the page*/
+body{
+    background-color: bisque;
+    text-align: center;
+    padding: 50px;
+}
+
+button{
+    background-color: rgb(221, 192, 249);
+}
+
+/*Styles footer*/
+footer{
+    /*centers the text*/
+    text-align: center;
+    /*sets the position*/
+    position: fixed;
+    /*anchors footer to bottom of the page*/
+    bottom: 0;
+    /*sets the width*/
+    width: 100%;
+    /*adjusts the hight*/
+    height: 100px;
+}

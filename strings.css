@@ -1,0 +1,21 @@
+body{
+    /*changes the background color to purple*/
+    background-color: rgb(202, 145, 255);
+
+     /*changes the text font*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*Styles footer*/
+footer{
+    /*centers the text*/
+    text-align: center;
+    /*sets the position*/
+    position: fixed;
+    /*anchors footer to bottom of the page*/
+    bottom: 0;
+    /*sets the width*/
+    width: 100%;
+    /*adjusts the hight*/
+    height: 100px;
+}

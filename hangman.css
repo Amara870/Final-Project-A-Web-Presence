@@ -1,0 +1,63 @@
+
+            /*Styles the main page*/
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                margin: 2rem;
+                background-color: blueviolet;
+            }
+
+            /*Style tha mian heading*/
+            h1{
+                color: white;
+                margin-bottom: 2rem;
+            }
+
+            /*Styles the game area*/
+            .game-container{
+                background-color: rgb(205, 151, 255);
+                padding: 2rem;
+                border-radius: 10px;
+                box-shadow: 0 0 10px regba(0, 0, 0, .1);
+                max-width: 600px;
+                margin: 0 auto;
+            }
+
+            /*Make the underscore section look better*/
+            #word-display{
+                font-size: 2rem;
+                letter-spacing: 0.5rem;
+                margin: 2rem 0;
+            }
+
+            /*Styles the guess box*/
+            #guess-input{
+                font-size: 1.2rem;
+                padding: 0.5rem;
+                width: 50px;
+                text-align: center;
+                margin: 1rem;
+            }
+
+            /*Styles the guess button*/
+            #guess-button{
+                font-size: 1.2rem;
+                padding: 0.5rem 1rem;
+                background-color: lightslategray;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+
+            /*Adds a shadow behind the guess button*/
+            #guess-button:hover{
+                background-color: green;
+            }
+
+            /*Styles the pre-written message*/
+            #message{
+                margin: 1rem 0;
+                font-size: 1.2rem;
+                min-height: 1.5rem;
+            }

@@ -1,0 +1,33 @@
+
+header{
+    text-align: center;
+}
+
+/*I am setting the style for the entire page*/
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(226, 183, 43);
+}
+
+/*Set the style for the game area*/
+canvas{
+    background-color: aqua;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid white;
+}
+
+/*Styles footer*/
+footer{
+    /*centers the text*/
+    text-align: center;
+    /*sets the position*/
+    position: fixed;
+    /*anchors footer to bottom of the page*/
+    bottom: 0;
+    /*sets the width*/
+    width: 100%;
+    /*adjusts the hight*/
+    height: 100px;
+}
